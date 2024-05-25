@@ -9,7 +9,7 @@ output "cluster_arn" {
 
 output "cluster_certificate_authority_data" {
   description = "Base64 encoded certificate data required to communicate with the cluster"
-  value       = module.eks.cluster_certificate_authority_data
+  value       = module.eks.cluster_certificate_authority_gk-aks-Digitaldata
 }
 
 output "cluster_endpoint" {
